@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+
+.nav-div-left {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
