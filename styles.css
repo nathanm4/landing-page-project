@@ -1,3 +1,57 @@
+/*star means globally to the css file*/
+* {
+    margin:0px;
+    font-family: "roboto", "Helvetica Neue", Helvetica, Arial;
+}
+
+
+/*working with button*/
+
+.First-half-background .Book-Tickets-Button {
+    padding: 5px 5px;
+    font-size: 10px;
+
+    border: black 3px solid;
+  }
+
+.Book-Tickets-Button {
+    background-color: lightblue;
+    border: whitesmoke 1px solid;
+    border-radius: 7px;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 11px 25px;
+}
+
+.First-half-background .image-1 {
+    width: 500px;
+}
+
+.thirdsection .band-picture {
+    display: flex;
+    justify-content: space-around;
+}
+
+.band {
+    width:200px;
+}
+
+.thirdsection {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 500px;
+}
+
+.thirdsection .info-header {
+    margin: 0px auto;
+}
+
+/*//for the header section*/
 nav {
     display: flex;
     margin: auto;
@@ -11,3 +65,27 @@ nav {
     width: 50%;
     justify-content: space-around;
 }
+
+.section2 {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+ img {
+     height: auto;
+    max-width: 100%;
+}
+
+/*width means how big we are making the object*/
+.main-space {
+    width: 35%;
+}
+
+.main-space p {
+    margin: 20px;
+    margin-left: 0px;
+}
+
