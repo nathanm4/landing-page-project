@@ -87,7 +87,7 @@ nav {
 }
 
 /*width means how big we are making the object*/
-.main-space {
+main-space {
     width: 35%;
 }
 
@@ -104,11 +104,74 @@ nav {
 }
 /*affects everything under the div*/
 .quotediv div {
-  width: 50%;
+    width: 50%;
 }
 
 .quotediv div span {
     float: right;
     font-size: 12px;
     font-weight: bold;
+}
+
+
+.footerBackground div{
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    display: flex;
+}
+
+.footerBackground div strong {
+    color: white;
+    font-size: 24px;
+}
+
+.footerBackground div p {
+    color: white;
+    font-size: 16px;
+}
+
+.footerBackground {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerBackground div .footerbuttons {
+    flex-direction: column;
+}
+
+.footerBackground div div {
+    margin: 50px;
+}
+
+.First-half-background .header {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.First-half-background .headerleft {
+    font-size: 16px;
+    color: white;
+}
+.First-half-background .second-header {
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.quotebackground .quotetext {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: lighter;
+    color: black;
+    opacity: .6;
 }
