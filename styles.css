@@ -163,6 +163,11 @@ main-space {
     font-weight: bolder;
 }
 
+.First-half-background {
+    background-color: lightblue;
+}
+
+
 .info-header {
     font-size: 36px;
     font-weight: bolder;
