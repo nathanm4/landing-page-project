@@ -24,6 +24,17 @@
     padding: 11px 25px;
 }
 
+.purchasebutton  {
+    background-color: lightblue;
+    border: whitesmoke 1px solid;
+    border-radius: 7px;
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 11px 25px;
+}
+
+
 .First-half-background .image-1 {
     width: 500px;
 }
@@ -33,10 +44,32 @@
     justify-content: space-around;
 }
 
-.band {
-    width:500px;
-    height: 200px;
+.thirdsection .blink182{
+    align-items: center;
+    flex: 1;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/cloudsbackground.jpeg');
+    /*z-index: -1;*/
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+
 }
+
+
+.band {
+    width: 500px;
+    max-height: 200px;
+}
+
+/*.thirdsection .band-picture .backgroundclouds {*/
+/*    background-image: url('images/vLRhf9.jpeg');*/
+/*    width: 1000px;*/
+/*}*/
 
 .thirdsection {
     display: flex;
@@ -46,6 +79,7 @@
     justify-content: space-evenly;
     width: 70%;
     height: 500px;
+
 }
 
 .thirdsection .info-header {
@@ -106,3 +140,68 @@ nav {
     font-size: 12px;
     font-weight: bold;
 }
+
+
+.footerBackground div{
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    display: flex;
+}
+
+.footerBackground div strong {
+    color: white;
+    font-size: 24px;
+}
+
+.footerBackground div p {
+    color: white;
+    font-size: 16px;
+}
+
+.footerBackground {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerBackground div .footerbuttons {
+    flex-direction: column;
+}
+
+.footerBackground div div {
+    margin: 50px;
+}
+
+.First-half-background .header {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.First-half-background .headerleft {
+    font-size: 16px;
+    color: white;
+}
+.First-half-background .second-header {
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.quotebackground .quotetext {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: lighter;
+    color: black;
+    opacity: .6;
+}
+
+
