@@ -90,3 +90,19 @@ nav {
     margin-left: 0px;
 }
 
+.quotediv {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+/*affects everything under the div*/
+.quotediv div {
+  width: 50%;
+}
+
+.quotediv div span {
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+}
