@@ -7,6 +7,15 @@
 
 /*working with button*/
 
+.First-half-background .ohhquagmire {
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+
+
 .First-half-background .Book-Tickets-Button {
     padding: 5px 5px;
     font-size: 10px;
@@ -115,7 +124,7 @@ main-space {
 
 
 .footerBackground div{
-    background-color: darkgoldenrod;
+    background-color: coral;
     border-radius: 10px;
     display: flex;
 }
@@ -124,6 +133,11 @@ main-space {
     color: white;
     font-size: 24px;
 }
+
+.quotebackground {
+    background-color: lightgray;
+}
+
 
 .footerBackground div p {
     color: white;
