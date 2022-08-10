@@ -38,11 +38,11 @@
     height: 200px;
 }
 
-.thirdsection .blink182 {
-    display: flex;
+/*.thirdsection .blink182 {*/
+/*    display: flex;*/
 
-    background-image: url('images/cloudsbackground.jpeg')
-}
+/*    background-image: url('images/cloudsbackground.jpeg')*/
+/*}*/
 
 .thirdsection {
     display: flex;
