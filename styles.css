@@ -71,6 +71,11 @@
 /*    width: 1000px;*/
 /*}*/
 
+/*.thirdsection .blink182 {*/
+/*    display: flex;*/
+
+/*    background-image: url('images/cloudsbackground.jpeg')*/
+/*}*/
 .thirdsection {
     display: flex;
     margin: auto;
@@ -79,6 +84,7 @@
     justify-content: space-evenly;
     width: 70%;
     height: 500px;
+    background-image: url('images/cloudsbackground.jpeg');
 
 }
 
