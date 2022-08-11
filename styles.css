@@ -7,12 +7,21 @@
 
 /*working with button*/
 
+.First-half-background .ohhquagmire {
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+
+
 .First-half-background .Book-Tickets-Button {
     padding: 5px 5px;
     font-size: 10px;
 
     border: black 3px solid;
-  }
+}
 
 .Book-Tickets-Button {
     background-color: lightblue;
@@ -24,17 +33,6 @@
     padding: 11px 25px;
 }
 
-.purchasebutton  {
-    background-color: lightblue;
-    border: whitesmoke 1px solid;
-    border-radius: 7px;
-    color: whitesmoke;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 11px 25px;
-}
-
-
 .First-half-background .image-1 {
     width: 500px;
 }
@@ -44,38 +42,17 @@
     justify-content: space-around;
 }
 
-.thirdsection .blink182{
-    align-items: center;
-    flex: 1;
-
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('images/cloudsbackground.jpeg');
-    /*z-index: -1;*/
-    display: flex;
-    -webkit-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-
-}
-
-
 .band {
-    width: 500px;
-    max-height: 200px;
+    width:500px;
+    height: 200px;
 }
-
-/*.thirdsection .band-picture .backgroundclouds {*/
-/*    background-image: url('images/vLRhf9.jpeg');*/
-/*    width: 1000px;*/
-/*}*/
 
 /*.thirdsection .blink182 {*/
 /*    display: flex;*/
 
 /*    background-image: url('images/cloudsbackground.jpeg')*/
 /*}*/
+
 .thirdsection {
     display: flex;
     margin: auto;
@@ -84,8 +61,6 @@
     justify-content: space-evenly;
     width: 70%;
     height: 500px;
-    background-image: url('images/cloudsbackground.jpeg');
-
 }
 
 .thirdsection .info-header {
@@ -115,13 +90,13 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
- img {
-     height: auto;
+img {
+    height: auto;
     max-width: 100%;
 }
 
 /*width means how big we are making the object*/
-.main-space {
+main-space {
     width: 35%;
 }
 
@@ -138,7 +113,7 @@ nav {
 }
 /*affects everything under the div*/
 .quotediv div {
-  width: 50%;
+    width: 50%;
 }
 
 .quotediv div span {
@@ -149,7 +124,7 @@ nav {
 
 
 .footerBackground div{
-    background-color: darkgoldenrod;
+    background-color: coral;
     border-radius: 10px;
     display: flex;
 }
@@ -158,6 +133,11 @@ nav {
     color: white;
     font-size: 24px;
 }
+
+.quotebackground {
+    background-color: lightgray;
+}
+
 
 .footerBackground div p {
     color: white;
@@ -197,6 +177,11 @@ nav {
     font-weight: bolder;
 }
 
+.First-half-background {
+    background-color: lightblue;
+}
+
+
 .info-header {
     font-size: 36px;
     font-weight: bolder;
@@ -210,4 +195,19 @@ nav {
     opacity: .6;
 }
 
+.purchasebutton  {
+    background-color: lightblue;
+    border: whitesmoke 1px solid;
+    border-radius: 7px;
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 11px 25px;
+}
 
+footer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
