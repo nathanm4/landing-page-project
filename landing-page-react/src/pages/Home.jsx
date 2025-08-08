@@ -10,11 +10,6 @@ export default function Home() {
           Welcome to my portfolio. I’m preparing content for projects, accomplishments, and credentials.
         </p>
       </section>
-
-      <section style={{ marginTop: 32 }}>
-        <h2>Projects</h2>
-        <p>More projects coming soon.</p>
-      </section>
     </main>
   )
 }
