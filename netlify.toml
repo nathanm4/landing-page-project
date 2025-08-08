@@ -5,3 +5,9 @@
 
   [build.environment]
   NODE_VERSION = "22"
+
+# SPA routing: send all paths to the built index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
