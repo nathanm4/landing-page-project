@@ -13,11 +13,7 @@ export default function Home() {
 
       <section style={{ marginTop: 32 }}>
         <h2>Projects</h2>
-        <ul>
-          <li>
-            South Park landing page demo — <a href="/southpark">/southpark</a>
-          </li>
-        </ul>
+        <p>More projects coming soon.</p>
       </section>
     </main>
   )
